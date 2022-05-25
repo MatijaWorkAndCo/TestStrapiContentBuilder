@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "buttons",
+  "info": {
+    "singularName": "button",
+    "pluralName": "buttons",
+    "displayName": "Button"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Primary",
+        "Secondary"
+      ]
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}
